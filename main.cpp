@@ -1,6 +1,6 @@
 #include<stdio.h>
-int plus(int a,int b);
 int minus(int a,int b);
+int plus(int a,int b);
 int multiple(int a,int b);
 int divide(int a,int b);
 int main()
@@ -11,50 +11,41 @@ int main()
  printf("\n--------------------------\n");
  scanf("%d %c %d",&num1,&sign,&num2);
  if(sign=='+')
- {
-     plus(num1,num2);
-  
-  }
+    plus(num1,num2);
  else if(sign=='-')
- {
-     minus(num1,num2);
-  
-  }
+    minus(num1,num2);
  else if(sign=='*')
- 
-     multiple(num1,num2);
+    multiple(num1,num2);
   
  else if(sign=='/')
- {
-     divide(num1,num2);
- 
-  }
+    divide(num1,num2);
  else
- printf("please input valid sign");
+ printf("please input valid sign\n");
+ 
  
  main(); 
 }
-int plus(int a,int b)
-{
- int sum;
- sum = a+b;
- printf("%d + %d = %d\n",a,b,sum);
-}
 int minus(int a,int b)
 {
- int sum;
- sum=a-b;
- printf("%d - %d = %d\n",a,b,sum);
+ int s;
+ s=a-b;
+ printf("%d - %d = %d\n",a,b,s);
+}
+int plus(int a,int b)
+{
+ int s;
+ s = a+b;
+ printf("%d + %d = %d\n",a,b,s);
 }
 int multiple(int a,int b)
 {
- int sum;
- sum = a*b;
- printf("%d * %d = %d\n",a,b,sum);
+ int s;
+ s = a*b;
+ printf("%d * %d = %d\n",a,b,s);
 }
 int divide(int a,int b)
 {
- int sum;
- sum = a/b;
- printf("%d / %d = %d\n",a,b,sum);
+ int s;
+ s = a/b;
+ printf("%d / %d = %d\n",a,b,s);
 }
