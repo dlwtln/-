@@ -1,0 +1,4 @@
+At first, it was difficult to do role sharing in making calculator. However, after much consideration, we played an effective role sharing.
+Minhyeok formed the overall framework, Jisoo examined the code and shared the code on GitHub, and Hyeonwoo executed the code and checked for any errors.
+We were first faced with trial and error because no one in our group knew how to use GitHub.
+But Jisoo learned how to use GitHub, so we could share our code on GitHub.
